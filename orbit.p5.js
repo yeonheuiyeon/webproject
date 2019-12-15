@@ -1,14 +1,14 @@
 
 function setup() {
-    createCanvas(1250, 1000, WEBGL);
+    createCanvas(1000, 1000, WEBGL);
   }
   
   function draw() {
     background(0);
     let radius = width * 1.5;
-  
+    
     //drag to move the world.
-    orbitControl();
+   orbitControl();
   
     normalMaterial();
     translate(0, 0, -600);

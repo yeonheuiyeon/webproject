@@ -1,8 +1,8 @@
 var arr= new Array(); 
 var count=0;
-var story = "BlackMan Lydia they Bingley Web Mr Darcy Lucas Chapter Miss Darcy Archive Mrs Collins Georgiana Netherfield Mr Darcys Lambton Bennet Blenheim Perhaps Charlotte  In Project Donations Darcy Haggerston Lucas P Elizabeth Netherfield Hart Lady NEGLIGENCE Mr Mrs Collins Others Mr Indeed Hertfordshire Annesley Colonel Miss It us Longbourn Newcastle Yes Miss Mr Miss Lucas Lydia But Bennet Elizabeth Jane Militia Little Mrs us others It GARDINER Mrs Oh Lydias Hertfordshire Elizabeth Bingley Darcy I If Mr Mr London Bennet Scotch Kitty Bennet Georgiana Chapter Yours For us Colonel Mrs Lydias Chapter Bennet Catherine Bingleys Cheapside Gracechurch Jane Console As Bingley Happiness Mrs Elizabeth Mrs Darcy Jane Fitzwilliams Bennet Mr I Bingley I Mr us Mrs Happy Lady Bingleys Kitty Every Wickham Mrs Gutenbergtm Lucases Mr Mrs Wickham Yet know Darcy The Chapter Westerham Catherine Mrs Lucas Lady Resignation Miss How Kitty My Mr Bingley Wickhams Collins Yet Mr Mr Yet Joness s Brighton Mary Elizabeth Elizabeth Elizabeth MAY Every Marias Darcy READ Elizabeth Mr Lady Project Jamess Bennet us Elizabeth Miss Mrs Elizabeth Mrs Wickham Wherever Darcys Miss Lizzy Mr Elizabeth Bennet Hunsford Bingley Bingley Mr Foundation Mrs Upon Miss Sir For Bingley Mr Miss Lady Lucas Catherine Oh Catherine Bingley Miss Kitty Darcy Elizabeth You Lord Elizabeth Mr Elizabeth Hertfordshire Charlottes Maria";
-var story1 = "forever electronic secret poor started little minds due northern wishes sure rapturous she struck will previous real nieces mother short public it real wish unable incredulous nay high however amends uneasiness it it casual alone mothers sensible strong sister many aunt good compatible various fine expeditiously hopeless individual room not ingenuity aloud much improper small satisfied appear home ridicule sensible large fun word whole kindness proofread backgammon handsome kindness advantageous proper occasional library impulse liked insufficient";
-var story2 = " better stating recommended made passed replied going right called meat see felt said prevented manage suspected said however seem want dated judged sitting leave stood thought see connected reading knowing and help read marry contributed ball speedy applying reserved see means heightened know easy ran wondered said dissatisfied say liked cried talked began see supposed worse agreed use left gave leave appeared entered pay said said meet entered got form fishing said need examining respecting misrepresented think remained seeing thinking let adhering reaching returned supposing pleasing sincerely abused paying recovering entered run said looked forget welcome libertywhich could gave read knowing wearied entered enumerating supported entering prove be know seeing met say furnish looked see praise seemed give staggered rejoiced answered started way passed paid hope know belong objecting lady grieved disadvantage disgusted assured acquiesce burying day cried suspecting dislike wanted gratified acceptable mothers astonished condescend continued mortifying consult engaged subject obliged impossible went come made decease ";
+var story = "BlackMan fashiondesigner pilot busdriver bartender waitress waiter stonemason gardener composer solicitor judge dancer	 sculptor poet writer photographer Bingley Web accountant Darcy Lucas Chapter Miss Darcy Archive economist lawyer lecturer Netherfield biologist scientist soldier Bennet Blenheim Perhaps Charlotte  In Project Donations Darcy Haggerston Lucas investmentanalyst Elizabeth Netherfield Hart Lady NEGLIGENCE priest Mrs burglar thief stripper forger pickpocket vicar Indeed Hertfordshire projectmanager Bennet Scotch Kitty Bennet Georgiana  Darcy Elizabeth You Lord Elizabeth Mr Elizabeth Hertfordshire Charlottes Maria";
+var story1 = "other good new old great high small different large local social important long young political able late general full far low public available bad main sure clear major economic only likely real black particular international special difficult certain open whole white free short easy strong European central similar human true common necessary single personal hard private poor financial wide foreign simple recent concerned American various close fine English wrong present royal happy significant industrial sorry dead specific";
+var story2 = " have will say would can get make go see know take could think come give look may should use find want tell must put mean become leave work need feel seem might ask show provide keep hold turn follow begin bring like going help start";
 // VARIABLES
 var blockedOut = false;
 var faded = false;
@@ -119,17 +119,111 @@ $(".clearMarked").on('click', function(){
 
 (function(){
   var words = [
-    'Chef',
-    'Designer',
-    'Driver',
-    'Developer',
-    'Poet',
-    'Teacher',
-    'Happy Person',
-    'BlackMan',
-    'Lydia','they',
-      'Bingley', 'Web', 'Mr' ,'Darcy' ,'Lucas', 'Chapter', 'Miss Darcy', 'Mrs Collins' ,'Georgiana' ,'Netherfield', 'Mr Darcys', 'Lambton' ,'Bennet', 'Blenheim','harlotte', 'Donations', 'Darcy', 'Haggerston', 'Lucas P', 'Elizabeth', 'Netherfield', 'Hart' ,'Lady'
-    ],
+    'other', 'good', 'new', 'old', 'great', 'high', 'small', 'different',' large' ,'local', 'social', 'important',' long' ,'young' ,'national' ,'British' ,'right', 'early' ,'possible', 'big' ,'little' ,'political', 'able', 'late', 'general', 'full',
+    'far','low',
+    'public',
+    'available',
+    'bad',
+    'main',
+    'sure',
+    'clear',
+    'major',
+    'economic',
+    'only',
+    'likely',
+   
+   ' special',
+    'difficult',
+   ' certain',
+    'open',
+   ' whole',
+    'white',
+    'free',
+    'short',
+    'easy',
+   ' strong',
+    'European',
+    'central',
+    'similar',
+    'human',
+    'true',
+    'common',
+    'necessary',
+    
+    'hard',
+    'private',
+    'poor',
+    'financial',
+    'wide',
+    'foreign',
+    'simple',
+    'recent',
+    'concerned',
+    'American',
+    'various',
+    'close',
+   ' fine',
+    'English',
+    
+   ' total',
+    'prime',
+    'significant',
+    'industrial',
+    'sorry',
+    'dead',
+    'specific'
+    ]
+    var words1 = ['BlackMan', 'fashiondesigner', 'pilot', 'busdriver', 'bartender', 'waitress', 'waiter' ,'stonemason', 'gardener','composer', 'solicitor', 'judge', 'dancer','sculptor' ,'poet', 'writer', 'photographer','Bingley', 'Web' ,'accountant', 'Darcy', 'Lucas' ,'Chapter', 'Miss', 'Darcyive' ,'economist', 'lawyer' ,'lecturer' ,'priest']
+      var words2 = [
+        'have',
+        'do',
+        'will',
+        'say',
+        'would',
+        'can',
+        'get',
+        'make',
+        'go',
+        'see',
+        'know',
+        'take',
+        'could',
+        'think',
+        'come',
+        'give',
+        'look',
+        'may',
+        'should',
+        'use',
+        'find',
+        'want',
+        'tell',
+       ' must',
+        'put',
+        'mean',
+       ' become',
+        'leave',
+        'work',
+        'need',
+        'feel',
+        'seem',
+        'might',
+        'ask',
+        'show',
+        'try',
+        'call',
+        'provide',
+        'keep',
+       'hold',
+        'turn',
+        'follow',
+       ' begin',
+        'bring',
+        'like',
+        'going',
+        'help',
+        'start'
+        ]
   i = 0;
   setInterval(function(){
       $('#changingword').fadeOut(function(){
@@ -138,12 +232,12 @@ $(".clearMarked").on('click', function(){
   }, 3000);
   setInterval(function(){
     $('#changingword1').fadeOut(function(){
-        $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        $(this).html(words1[i=(i+1)%words1.length]).fadeIn();
     });
 }, 3000);
   setInterval(function(){
   $('#changingword2').fadeOut(function(){
-      $(this).html(words[i=(i+1)%words.length]).fadeIn();
+      $(this).html(words2[i=(i+1)%words2.length]).fadeIn();
   });
 }, 3000);
     
